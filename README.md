@@ -1,1 +1,2 @@
 # Rem-Word
+This password archive system is a simple console application built without graphics. In this project, users can add new data, display existing data and search data used for a particular website or an app. This project is basically manually updating the email - password archive into personal device or console based application so that the users can know the details used for their account in a particular website or an app.
