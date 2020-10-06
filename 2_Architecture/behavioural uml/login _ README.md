@@ -1,2 +1,0 @@
-# LOGIN PAGE
-First page contains the welcome message as well as the login to direct the user to menu page.It consists of LOGIN which prompts the user to enter the user id and password to enter the Rem-WORD . If the user id and password entered by the user is valid he/she will be directed to the menu page of the application . But if the user id and password entered are not valid , the user is asked to reenter the credentials again . The number of trials allowed for login is 3 ,beyond which the user is alerted and control exits the application.
