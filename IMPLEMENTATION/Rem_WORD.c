@@ -10,11 +10,14 @@ void all();
 
 void main()
 {
-	login();
-	system("color 0a");//change the color of command prompt
+    login();
+    system("color 0a");//change the color of command prompt
     system("cls");//clear the screen
     menu();
 }
+/**
+*Function for login page
+*/
 void login()
 {
 	system("color 0a");
@@ -27,7 +30,7 @@ void login()
 {
     printf("\n\t\t\t\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  LOGIN FORM  \xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\xB2\  ");
     printf(" \n\n\t\t          ENTER USERNAME:-");
-	scanf("%s", &uname); //username : sneha
+	scanf("%s", &uname);         //username : sneha
 	printf(" \n\n\t\t          ENTER PASSWORD:-");
 	while(i<10)
 	{
@@ -36,16 +39,16 @@ void login()
 	    if(c==13)
 		 break;
 	    else
-		 printf("#");//password : 1998 will be replaced by #### for security
+		 printf("#");        //password : 1998 will be replaced by #### for security
 	    i++;
 	}
 	pword[i]='\0';
 	i=0;
-	if(strcmp(uname,"sneha")==0 && strcmp(pword,"1998")==0)// user id : sneha , password : 1998
+	if(strcmp(uname,"sneha")==0 && strcmp(pword,"1998")==0)     // check if user id : sneha , password : 1998
 	{
 	printf("  \n\n\n\t\t          LOGIN IS SUCCESSFUL!\n\t\t          WELCOME TO Rem- WORD , your personal email -password reminder! ");
 	printf("\n\n\n\t\t\t\tPress any key to continue...");
-	getch();//holds the screen
+	getch();           //holds the screen
 	break;
 	}
 	else
@@ -54,13 +57,13 @@ void login()
 		printf("\n\t\t           You have %d more trials left ",b--);
 		printf("\n\t\t           Please ensure you give the valid id and password ");
 		printf("\n\n\t\t           press any key to continue");
-		a++;//count for login attempts
-		getch();//holds the screen
+		a++;                //count for login attempts
+		getch();           //holds the screen
 
 	}
 }	while(a<=2);
 
-	if (a>2)// this loop will keep track of the number of login attempts
+	if (a>2)           // this loop will keep track of the number of login attempts
 	{
 		printf("\nSorry you have entered the wrong username and password for 3 times!!!");
 
@@ -72,6 +75,10 @@ void login()
 
 
 }
+
+/**
+*function for MENU
+*/
 
 int menu()
 {
@@ -110,6 +117,10 @@ int menu()
 }
 }
 
+/**
+*function for ADD
+*/
+
 void add()
 {
     FILE *fp;
@@ -134,6 +145,11 @@ void add()
     system("cls");
     menu();
 }
+
+/**
+*function for SEARCH
+*/
+
 void search()
 {
     FILE *fp;
@@ -169,6 +185,10 @@ void search()
     system("cls");
     menu();
 }
+
+/**
+*function for View ALL
+*/
 
 void all()
 {
