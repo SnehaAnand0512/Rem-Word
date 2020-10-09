@@ -6,4 +6,4 @@ The  menu consists of the following major options :
 3.	View all data- allows user to view data related to all the websites / apps.
 4.	Exit console 
 
-These functions awas exclusively tested for thier proper functioning
+These functions were exclusively tested for thier proper functioning
