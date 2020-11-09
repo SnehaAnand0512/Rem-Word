@@ -11,4 +11,4 @@ jobs:
       - name: Install cppcheck
         run: sudo apt-get -y install cppcheck
       - name: Cppcheck code
-        run: cppcheck MiniProject_C/3_Implementation
+        run: cppcheck Rem-Word/3_Implementation
