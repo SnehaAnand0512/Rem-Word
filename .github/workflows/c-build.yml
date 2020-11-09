@@ -1,11 +1,10 @@
-  
 name: C/C++ CI
 
 on:
   push:
-    branches: [ main ]
+    branches: [ master ]
   pull_request:
-    branches: [ main ]
+    branches: [ master ]
 
 jobs:
   build:
@@ -16,4 +15,4 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make all 
+      run:  make all -C MiniProject_C/3_Implementation/
