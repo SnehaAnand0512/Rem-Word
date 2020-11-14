@@ -10,7 +10,7 @@ This is a personal password archive system . It is a simple console application 
 
 
 ## Integrated Tools to GitHub
-*  [Codacy](https://www.codacy.com/)
+* [Codacy](https://www.codacy.com/)
 
 ## GitHub Actions
 * Build using Make for CI
