@@ -1,6 +1,6 @@
 # REQUIREMENTS
 
-## PROJECT TECHINCAL SPECIFICATION :
+## PROJECT TECHINCAL SPECIFICATION 
 
 •	Editor : CODEBLOCKS VERISON 20.3
 
@@ -10,7 +10,7 @@
 
 •	Project type : EMAIL-PASSWORD ARCHIVE
 
-## SYSTEM REQUIREMENTS:
+## SYSTEM REQUIREMENTS
 
 •	Operating system : Windows XP, Vista, 7, 8, or 10
 
@@ -20,7 +20,7 @@
 
 •	Windows installer : latest version as per OS Requirements
 
-## The important modules that are going to be implemented in the proposed system.
+## The important modules that are going to be implemented in the proposed system
 
 •	Login
 
