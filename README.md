@@ -18,4 +18,3 @@ This is a personal password archive system . It is a simple console application 
 * Build using Make for CI
 * Unit tests with Cunit
 * Static code analysis using cppcheck
-* Dynamic Code analysis using Valgrind
