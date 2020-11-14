@@ -1,8 +1,6 @@
 #include "unity.h"
 #include "remword.h"
-/* Required by the unity test framework */
 void setUp(){}
-/* Required by the unity test framework */
 void tearDown(){}
 
 void test_enterchoice(void)
