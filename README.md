@@ -1,3 +1,8 @@
+# Rem-Word
+This is a personal password archive system . It is a simple console application built without graphics. In this project, ***a single user*** **can add new data, display existing data and search data used for a particular website or an app.** This project is basically manually updating of the email - password archive into personal device or console based application so that the user can know the details used for his/her account in a particular website or an app.
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/3b20c7c3ec7f4734b42cc0d04dcf3fb2)](https://app.codacy.com/manual/stepin654321/MiniProject_Template?utm_source=github.com&utm_medium=referral&utm_content=stepin654321/MiniProject_Template&utm_campaign=Badge_Grade_Dashboard)
+
 
 |Build|Unit Test|cppcheck|Codacy|
 |:--:|:--:|:--:|:--:|
@@ -6,6 +11,11 @@
 
 
 
+## Integrated Tools to GitHub
+*  [Codacy](https://www.codacy.com/)
 
-# Rem-Word
-This is a personal password archive system . It is a simple console application built without graphics. In this project, ***a single user*** **can add new data, display existing data and search data used for a particular website or an app.** This project is basically manually updating of the email - password archive into personal device or console based application so that the user can know the details used for his/her account in a particular website or an app.
+## GitHub Actions
+* Build using Make for CI
+* Unit tests with Cunit
+* Static code analysis using cppcheck
+* Dynamic Code analysis using Valgrind
