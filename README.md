@@ -14,5 +14,4 @@ This is a personal password archive system . It is a simple console application 
 
 ## GitHub Actions
 * Build using Make for CI
-* Unit tests with Cunit
 * Static code analysis using cppcheck
